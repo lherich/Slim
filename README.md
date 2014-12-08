@@ -12,7 +12,7 @@ Fork of the original micro framework Slim with minimal modifications.
 This modification will return an associative array.
 
 ###index.php
-```
+```php
 $app->get('/hello/:myFirstIndex/:mySecondIndex', function($params) {
   print_r($params);
 });
